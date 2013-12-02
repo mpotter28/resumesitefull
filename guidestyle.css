@@ -1,4 +1,4 @@
-/*setting up the desktop display of the site */
+/*setting up the mobile display of the site */
 @media all and (max-width: 300px) {
    body {
     background-color: #1F0F00;
@@ -96,7 +96,7 @@
     
 }
 
-/*setting up the mobile version of the site */
+/*setting up the desktop version of the site */
 @media (min-width: 300px) {
     body {
     background-color: #1F0F00;   
@@ -120,7 +120,7 @@
     
       text-align:center;
       font-family: sans-serif;
-      border-radius:25px;
+      
       color: #1F0F00;
       float: left;
       width:110px;
@@ -140,7 +140,7 @@
     
       text-align:center;
       font-family: sans-serif;
-      border-radius:25px;
+      
       color: #1F0F00;
       float: left;
       width:110px;
@@ -160,7 +160,7 @@
     
       text-align:center;
       font-family: sans-serif;
-      border-radius:25px;
+      
       color: #1F0F00;
       float: left;
       width:110px;
@@ -180,7 +180,7 @@
     
       text-align:center;
       font-family: sans-serif;
-      border-radius:25px;
+      
       color: #1F0F00;
       float: left;
       width:110px;
