@@ -10,7 +10,7 @@
     /*set link behavior*/
     
     #navbar {
-        position: relative;
+        position: fixed;
     }
     
     /*setting up the display of the navigation bar*/
@@ -22,7 +22,7 @@
     
     text-align:center;
     font-family: sans-serif;
-    border-radius:25px;
+    
     color: #1F0F00;
     
     width:110px;
@@ -42,7 +42,7 @@
     
       text-align:center;
       font-family: sans-serif;
-      border-radius:25px;
+      
       color: #1F0F00;
     
       width:110px;
@@ -62,7 +62,7 @@
     
       text-align:center;
       font-family: sans-serif;
-      border-radius:25px;
+      
       color: #1F0F00;
     
       width:110px;
@@ -82,7 +82,7 @@
     
       text-align:center;
       font-family: sans-serif;
-      border-radius:25px;
+      
       color: #1F0F00;
     
       width:110px;
