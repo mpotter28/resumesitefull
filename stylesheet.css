@@ -1,3 +1,4 @@
+/*setting up the desktop display of the site */
 @media all and (max-width: 300px) {
    body {
     background-color: #1F0F00;
@@ -12,6 +13,7 @@
         position: relative;
     }
     
+    /*setting up the display of the navigation bar*/
     #home {
     background-color: #FF9900;
     width:100px;
@@ -94,7 +96,7 @@
     
 }
 
-
+/*setting up the mobile version of the site */
 @media (min width: 300px) {
     body {
     background-color: #1F0F00;   
@@ -105,7 +107,7 @@
     a:visited {color:#CC3300;}
      /*set link behavior*/
       #navbar {
-        position: relative
+        position: relative;
     }
     
     #home {
