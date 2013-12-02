@@ -117,11 +117,21 @@
       }
       
    #header {
+      background-color: #FF9900;
+      border:2px solid #993300;
+      padding: 2px;
+      width: 265px;
+      height: 144px;
       float: right;
    }  
    
    #content {
-      float: right;
+      background-color: #FF9900;
+      border:2px solid #993300;
+      padding: 2px;
+      width: 265px;
+      height: 144px;
+      position: relative;
    }
     
 }
