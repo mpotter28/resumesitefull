@@ -106,8 +106,10 @@
     
     a:visited {color:#CC3300;}
      /*set link behavior*/
-      #navbar {
-        position: relative;
+   #navbar {
+      width: 600px;
+      position:relative;
+      left: 60px;
     }
     
     #home {
