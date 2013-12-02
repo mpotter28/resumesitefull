@@ -97,7 +97,7 @@
 }
 
 /*setting up the mobile version of the site */
-@media (min width: 300px) {
+@media (min-width: 300px) {
     body {
     background-color: #1F0F00;   
     } /*set the background color */
