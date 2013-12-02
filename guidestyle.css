@@ -115,6 +115,14 @@
    #blog:hover {
       background-color: #CC6600;
       }
+      
+   #header {
+      float: right;
+   }  
+   
+   #content {
+      float: right;
+   }
     
 }
 
