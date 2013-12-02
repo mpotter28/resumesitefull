@@ -1,5 +1,5 @@
 /*setting up the desktop display of the site */
-/*@media all and (max-width: 300px) {*/
+@media all and (max-width: 300px) {
    body {
     background-color: #1F0F00;
     } /*set the background color */
@@ -94,10 +94,10 @@
       background-color: #CC6600;
       }
     
-/*}
+}
 
 /*setting up the mobile version of the site */
-/*@media (min width: 300px) {*/
+@media (min width: 300px) {
     body {
     background-color: #1F0F00;   
     } /*set the background color */
@@ -190,5 +190,5 @@
       background-color: #CC6600;
       }
     
-/*}
+}
 
