@@ -11,6 +11,7 @@
     
     #navbar {
         position: fixed;
+        Left: 265px;
         height: ;
         
     }
@@ -122,7 +123,7 @@
       padding: 2px;
       width: 263px;
       height: 142px;
-      float: right 55px;
+      float: left;
    }  
    
    #content {
@@ -131,7 +132,7 @@
       padding: 2px;
       width: 263px;
       height: 334px;
-      float: right 55px;
+      float: left;
    }
     
 }
