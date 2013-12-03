@@ -27,7 +27,7 @@
     
       color: #1F0F00;
     
-      width:55px;
+      width:53px;
       height:94px;
       
        }
@@ -47,7 +47,7 @@
       
       color: #1F0F00;
     
-      width:55px;
+      width:53px;
       height:94px;
       
       }
@@ -67,7 +67,7 @@
       
       color: #1F0F00;
     
-      width:55px;
+      width:53px;
       height:94px;
       
       }
@@ -87,7 +87,7 @@
       
       color: #1F0F00;
     
-      width:55px;
+      width:53px;
       height:94px;
       
       }
@@ -107,7 +107,7 @@
       
       color: #1F0F00;
     
-      width:55px;
+      width:53px;
       height:94px;
       
       }
@@ -120,18 +120,18 @@
       background-color: #FF9900;
       border:2px solid #993300;
       padding: 2px;
-      width: 265px;
+      width: 263px;
       height: 142px;
-      float: right;
+      float: right 55px;
    }  
    
    #content {
       background-color: #FF9900;
       border:2px solid #993300;
       padding: 2px;
-      width: 265px;
+      width: 263px;
       height: 334px;
-      float: right;
+      float: right 55px;
    }
     
 }
