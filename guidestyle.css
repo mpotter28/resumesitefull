@@ -1,5 +1,5 @@
 /*setting up the mobile display of the site */
-@media all and (max-width: 320px) {
+
    body {
     background-color: #1F0F00;
     font-family: "Lucida Console", Monaco, monospace;
@@ -182,16 +182,16 @@
 }
 
 /*setting up the desktop version of the site */
-@media (min-width: 320px) {
+/*@media (min-width: 320px) {
     body {
     background-color: #1F0F00;   
     } /*set the background color */
     
-    a:link {color:#1F0F00;}
+    /*a:link {color:#1F0F00;}
     
     a:visited {color:#CC3300;}
      /*set link behavior*/
-   #navbar {
+   /*#navbar {
       width: 600px;
       position:relative;
       left: 60px;
