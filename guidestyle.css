@@ -2,7 +2,8 @@
 @media all and (max-width: 320px) {
    body {
     background-color: #1F0F00;
-    } /*set the background color */
+    font-family: "Lucida Console", Monaco, monospace;
+    } /*set the background color and fonts */
     
     a:link {color:#1F0F00;}
     
@@ -13,7 +14,15 @@
         position: fixed;
         Left: 265px;
         height: ;
-        
+       border:2px solid #1A170F;
+    }
+    
+    .nav {
+     /* -ms-transform:rotate(270deg); /* IE 9 */
+     /*-moz-transform:rotate(270deg); /* Firefox */
+     /*-webkit-transform:rotate(270deg); /* Safari and Chrome */
+      /*-o-transform:rotate(270deg); /* Opera */
+      /*float: left; */
     }
     
     /*setting up the display of the navigation bar*/
@@ -21,11 +30,13 @@
       background-color: #FF9900;
       width:100px;
       
-      border:2px solid #993300;
+      border-top: 2px solid #1A170F;
     
-      text-align:center;
+      text-align:left;
       font-family: sans-serif;
-    
+      background-image: url('homeicon.png');
+      background-repeat: no-repeat; 
+      background-position: center center;
       color: #1F0F00;
     
       width:53px;
@@ -41,11 +52,13 @@
       background-color: #FF9900;
       width:100px;
       
-      border:2px solid #993300;
+      border-top: 2px solid #1A170F;
     
-      text-align:center;
+      text-align:left;
       font-family: sans-serif;
-      
+      background-image: url('portfoliocon.png');
+      background-repeat: no-repeat; 
+      background-position: center center;
       color: #1F0F00;
     
       width:53px;
@@ -61,11 +74,13 @@
       background-color: #FF9900;
       width:100px;
       
-      border:2px solid #993300;
+      border-top: 2px solid #1A170F;
     
-      text-align:center;
+      text-align:left;
       font-family: sans-serif;
-      
+      background-image: url('contacticon.png');
+      background-repeat: no-repeat; 
+      background-position: center center;
       color: #1F0F00;
     
       width:53px;
@@ -81,11 +96,13 @@
       background-color: #FF9900;
       width:100px;
       
-      border:2px solid #993300;
+      border-top: 2px solid #1A170F;
     
-      text-align:center;
+      text-align:left;
       font-family: sans-serif;
-      
+      background-image: url('BioIcon.png');
+      background-repeat: no-repeat; 
+      background-position: center center;
       color: #1F0F00;
     
       width:53px;
@@ -101,11 +118,13 @@
       background-color: #FF9900;
       width:100px;
       
-      border:2px solid #993300;
+      border-top: 2px solid #1A170F;
     
-      text-align:center;
+      text-align:left;
       font-family: sans-serif;
-      
+      background-image: url('blogicon.png');
+      background-repeat: no-repeat; 
+      background-position: center center;
       color: #1F0F00;
     
       width:53px;
@@ -117,24 +136,49 @@
       background-color: #CC6600;
       }
       
-   #header {
-      background-color: #FF9900;
-      border:2px solid #993300;
-      padding: 2px;
-      width: 261px;
+   #subnav {
+      background-color: #ADA59D;
+      border:2px solid #1A170F;
+      background-image: url('face.jpg');
+      width: 253px;
       height: 142px;
       float: left;
-   }  
+   }
+   
+   .subnav:hover {
+     background-color:  #CC7A52;
+   }
+   
+   .subnav {
+      width: 253px;
+      height: 45px;
+      border-top: 2px solid #1A170F;
+      background-color: #ADA59D;
+      text-align: center;
+      
+      
+   }
+   
+   .subnav b{
+      position: relative; top: 30%;
+   }
    
    #content {
-      background-color: #FF9900;
-      border:2px solid #993300;
+      background-color: #FFE994;
+      border:2px solid #1A170F;
       padding: 2px;
-      width: 261px;
-      height: 334px;
+      width: 249px;
+      height: 330px;
       float: left;
+      overflow-y: auto;
    }
-    
+   
+   #content h4{
+       margin-left: 10px;
+   }
+   #content p{
+      margin-left: 10px;
+   }
 }
 
 /*setting up the desktop version of the site */

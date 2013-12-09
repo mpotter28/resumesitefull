@@ -5,7 +5,8 @@
     <title>Mike Potter</title>
     <link rel="stylesheet" type="text/css" href="guidestyle.css">
     <script>
-           
+           <script type="text/javascript" src="simple-inheritance.min.js">
+           <script type="text/javascript" src="code-photoswipe-1.0.9.min.js">
     </script>
 </head>
 
@@ -16,10 +17,18 @@
         
     </div>
     
-    <div id = "subnav">
+   <div id = "subnav">
         <!--establishes the image that will be placed above content in both versions of the site -->
         
-       
+        <a href = "journalism.html"><div id = "subnav1" class="subnav">
+            <b>JOURNALISM</b>
+        </div></a>
+        <a href = "lit.html"><div id = "subnav2" class="subnav">
+            <b>LITERATURE</b>
+        </div></a>
+        <a href = "visual.html"><div id = "subnav3" class="subnav">
+            <b>VISUALS</b>
+        </div></a>
     </div>
     
     <div id = "navbar">
@@ -42,10 +51,20 @@
     </div>
     
     <div id = "content">
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                Code.photoswipe('a', '#Gallery');
+            }, false);
+        </script>
         <!-- this is where the content the user wants will appear in both mobile and desktop versions of the site -->
-        <h4>Welcome</h4>
-        <p>You're using the resume app for multimedia journalist Mike Potter.
-        I developed this app to showcase my abilities in storytelling and programming.</p>
+        <div id="Gallery">
+            <div class="gallery-row">
+                <div class="gallery-item"><a href="full1.jpg"><img src="thumb1.jpg" alt=""></a></div>
+                <div class="gallery-item"><a href="full2.jpg"><img src="thumb2.jpg" alt=""></a></div>
+                <div class="gallery-item"><a href="full3.jpg"><img src="thumb3.jpg" alt=""></a></div>
+                <div class="gallery-item"><a href="full4.jpg"><img src="thumb4.jpg" alt=""></a></div>
+            </div>
+        </div>
     </div>
     
     
